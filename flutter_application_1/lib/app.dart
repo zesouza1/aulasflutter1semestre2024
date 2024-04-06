@@ -17,6 +17,9 @@ class MyApp extends StatelessWidget {
   }
 }
 
+
+
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
@@ -27,6 +30,7 @@ class MyHomePage extends StatefulWidget {
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
+
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 10;
@@ -67,7 +71,10 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.add,
+          color:Colors.blue,
+          
+        ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
