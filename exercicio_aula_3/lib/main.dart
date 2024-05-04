@@ -54,6 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Padding(
                         padding: EdgeInsets.all(8.0),
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
                               'Estado de São Paulo',
@@ -79,6 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     const Padding(
                       padding: EdgeInsets.all(10.0),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
                             'Estado de Góias',
@@ -107,6 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Padding(
                         padding: EdgeInsets.all(10.0),
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
                               'Estado de Tocantins',
@@ -132,6 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     const Padding(
                       padding: EdgeInsets.all(10.0),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
                             'Estado de Pernambuco',
@@ -160,6 +164,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Padding(
                         padding: EdgeInsets.all(10.0),
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
                               'Estado do Acre',
@@ -185,6 +190,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     const Padding(
                       padding: EdgeInsets.all(10.0),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
                             'Estado do Rio de Janeiro',
@@ -213,6 +219,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Padding(
                         padding: EdgeInsets.all(10.0),
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
                               'Estado de Roraima',
@@ -238,6 +245,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     const Padding(
                       padding: EdgeInsets.all(10.0),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
                             'Estado do Paraná',
@@ -266,6 +274,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Padding(
                         padding:EdgeInsets.all(10.0),
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
                               'Estado do Maranhão',
@@ -291,6 +300,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     const Padding(
                       padding: EdgeInsets.all(10.0),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
                             'Estado do Amazonas',
