@@ -55,7 +55,8 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
                 Image.network("https://cdn.pixabay.com/photo/2024/04/04/03/08/ai-generated-8674235_960_720.png"),
                 CircleAvatar(
-                  child:Image.network("https://cdn.pixabay.com/photo/2024/04/04/03/08/ai-generated-8674235_960_720.png",),
+                  child:Image.network("https://cdn.pixabay.com/photo/2024/04/04/03/08/ai-generated-8674235_960_720.png",
+                  ),
                 ),
                 Image.asset(
                  'assets/aaaaa.jpg',
