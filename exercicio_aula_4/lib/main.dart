@@ -76,9 +76,9 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Row(
                 children: [
-                  SizedBox(
+                   const SizedBox(
                     width: 150,
-                    child: const Text(
+                    child:  Text(
                       'Lorem AKSPOAKSPOKAPOSKAPOSKPAOKSPOAKPOSKAPOKSPODKPOASKDPOASKDPOAKSDPOAs',
                       overflow: TextOverflow.visible,
                     ),
